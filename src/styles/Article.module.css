@@ -1,0 +1,16 @@
+.mian
+{
+    border: 2px solid black;
+    list-style-type: none;
+    padding: 1vmin;
+    border-radius: 15px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+.button
+{
+    border: 2px solid black;
+    background-color: whitesmoke;
+    
+}
