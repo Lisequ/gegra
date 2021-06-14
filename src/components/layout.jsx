@@ -12,7 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Navbar from "./Navbar"
 import NavLink from "./NavLink"
 import Foot from "./Foot"
-import "./layout.css"
+import "../styles/layout.css"
 
 export default function Layout({ children }) {
 

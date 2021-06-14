@@ -1,4 +1,4 @@
-import Rect from "react"
+import React from "react"
 import styles from "../styles/Foot.module.css"
 
 export default function Foot()

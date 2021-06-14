@@ -1,6 +1,7 @@
 import React from "react"
 import styles from "../styles/Navbar.module.css"
 
+import { Helmet } from "react-helmet"
 import NavLink from "./NavLink"
 
 export default function Navbar()

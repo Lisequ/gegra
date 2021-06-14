@@ -1,7 +1,9 @@
 import React from "react"
 import styles from "../styles/kontakt.module.css"
 
-export default Kontakt()
+import Layout from "../components/layout"
+
+export default function Kontakt()
 {
     return(
         <Layout>
