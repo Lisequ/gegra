@@ -9,18 +9,22 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
+import Navbar from "./Navbar"
+import NavLink from "./NavLink"
+import Foot from "./Foot"
 import "./layout.css"
 
 export default function Layout({ children }) {
 
-  return (
-    <>
-      <main>{children}</main>
-    </>
-  )
+    return (
+        <>
+            <Navbar />
+            <main>{children}</main>
+            <Foot />
+        </>
+    )
 }
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+    children: PropTypes.node.isRequired,
 }
