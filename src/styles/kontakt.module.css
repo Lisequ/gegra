@@ -2,3 +2,11 @@
 {
     padding: 3vmin;
 }
+.a
+{
+    text-decoration: none;
+    color: var(--bg-color);
+    background-image: var(--gradient-two);
+    border-radius: 5px;
+    padding: 3px;
+}

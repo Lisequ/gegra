@@ -9,7 +9,7 @@ export default function Zaloguj()
         <Layout>
             <div className={styles.container}>
                 <form className={styles.form} method="POST" action="http://ekoturystyka.zsem.edu.pl/login.php">
-                    <h4>Zaloguj się</h4>
+                    <h1 className={styles.text}>Zaloguj się:</h1>
                     <input className={styles.input} type="text" placeholder="login"/> <br />
                     <input className={styles.input} type="password" placeholder="hasło"/> <br />
                     <input className={styles.input} type="submit" value="Zaloguj"/>

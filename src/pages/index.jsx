@@ -11,7 +11,7 @@ export default function IndexPage() {
         <Layout>
             <Seo title="Home" />
             <StaticImage className={styles.imgcon} imgClassName={styles.img} src="../images/panorama.jpg"/>
-            <h1 className={styles.title}>Ekoturystyka ZSEM</h1>
+            <h1 className={styles.title}>Ekoturystyka ZSEM</h1>
         </Layout>
     )
 }

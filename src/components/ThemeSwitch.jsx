@@ -5,7 +5,7 @@ import { useCookies } from "react-cookie"
 export default function ThemeSwitch()
 {
     const [cookies, setCookie, removeCookie] = useCookies(['theme'])
-    const [isDark, setIsDark] = useState(cookies['theme'] || false)
+    const [isDark, setIsDark] = useState(cookies['theme'])
     return(
         <div className={styles.main} onClick={() => {setCookie('theme', !isDark); setIsDark(!isDark)}}>
             <i className={isDark ? "fas fa-sun" : "fas fa-moon"}></i>
