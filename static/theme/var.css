@@ -5,6 +5,6 @@
     --acccent-color: rgb(94, 231, 255);
 
     --gradient-one: linear-gradient(to right, var(--primary-color), var(--secondary-color));
-    --gradient-one: linear-gradient(to right, var(--acccent-color), var(--secondary-color));
-    --gradient-one: linear-gradient(to right, var(--primary-color), var(--acccent-color));
+    --gradient-two: linear-gradient(to right, var(--acccent-color), var(--secondary-color));
+    --gradient-three: linear-gradient(to right, var(--primary-color), var(--acccent-color));
 }

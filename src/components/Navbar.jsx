@@ -3,6 +3,7 @@ import * as styles from "../styles/Navbar.module.css"
 
 import { Helmet } from "react-helmet"
 import NavLink from "./NavLink"
+import ThemeSwitch from "./ThemeSwitch"
 
 export default function Navbar()
 {
@@ -19,6 +20,7 @@ export default function Navbar()
                 <NavLink name="Chmura" link="/chmura"/>
                 <NavLink name="Kontakt" link="/kontakt"/>
                 <NavLink name="Zaloguj" link="/zaloguj"/>
+                <ThemeSwitch/>
             </ul>
         </nav>
     )

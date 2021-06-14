@@ -1,6 +1,6 @@
 .form
 {
-    border: 2px solid black;
+    border: 2px solid var(--text-color);
     padding: 3vmin;
     border-radius: 15px;
 }
@@ -18,7 +18,7 @@
 }
 .input
 {
-    border: 2px solid black;
+    border: 2px solid var(--text-color);
     border-radius: 5px;
     margin: 5px;
 }
