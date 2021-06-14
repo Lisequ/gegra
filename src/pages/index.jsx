@@ -1,4 +1,5 @@
 import * as React from "react"
+import * as styles from "../styles/index.module.css"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
@@ -9,7 +10,8 @@ export default function IndexPage() {
     return (
         <Layout>
             <Seo title="Home" />
-            <h1>Strona główna</h1>
+            <StaticImage className={styles.imgcon} imgClassName={styles.img} src="../images/panorama.jpg"/>
+            <h1 className={styles.title}>Ekoturystyka ZSEM</h1>
         </Layout>
     )
 }

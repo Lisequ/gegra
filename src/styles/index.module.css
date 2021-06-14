@@ -1,0 +1,11 @@
+.imgcon
+{
+    width: 100%;
+    min-height: 30vh;
+}
+.img
+{
+    filter: brightness(50%);
+    min-height: 30vh;
+    width: 100%;
+}

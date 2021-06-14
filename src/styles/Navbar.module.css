@@ -1,9 +1,9 @@
 .nav
 {
-    background-color: black;
+    background-image: var(--gradeint-one);
     padding: 3vmin;
     border-radius: 0px 0px 15px 15px;
-    margin-bottom: 5vh;
+    margin-bottom: 0vh;
 }
 
 .list
