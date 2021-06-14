@@ -7,7 +7,7 @@ export default function Chmura()
 {
     return(
         <Layout>
-            <i class="fas fa-cloud"></i>
+            <i className="fas fa-cloud"></i>
         </Layout>
     )
 }
