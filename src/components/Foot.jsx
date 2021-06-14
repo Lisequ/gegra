@@ -6,7 +6,7 @@ export default function Foot()
     return(
         <>
             <hr/>
-            <footer>© 2021 | Ekoturystyka ZSEM</footer>
+            <footer className={styles.stopa}>© 2021 | Ekoturystyka ZSEM</footer>
         </>
     )
 }
