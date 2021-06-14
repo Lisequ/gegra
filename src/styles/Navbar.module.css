@@ -1,0 +1,16 @@
+.nav
+{
+    background-color: black;
+    padding: 3vmin;
+    border-radius: 0px 0px 15px 15px;
+    margin-bottom: 5vh;
+}
+
+.list
+{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
