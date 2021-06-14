@@ -9,9 +9,9 @@ export default function Chmura()
         <Layout>
             <form action="phpvsc.php" method="POST">
                 <h1>Zaloguj się:</h1>
-                <br><input type="user" name="user" value="user">
-                <br><input type="passwd" name="passwd" value="passwd">
-                <input type="submit" value="Zaloguj się">
+                <br><input type="user" name="user" value="user"></input>
+                <br><input type="passwd" name="passwd" value="passwd"></input>
+                <input type="submit" value="Zaloguj się"></input>
             </form>
             <i className="fas fa-cloud"></i>
         </Layout>
