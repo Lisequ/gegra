@@ -4,7 +4,7 @@ import styles from "../styles/zaloguj.module.css"
 export default function Zaloguj()
 {
     return(
-        <form className="lets-a-go" method="POST" action="http://ekoturystyka.zsem.edu.pl/login.php">
+        <form className={styles.letsago} method="POST" action="http://ekoturystyka.zsem.edu.pl/login.php">
             <input type="text" placeholder="login"/>
             <input type="password" placeholder="hasło"/>
             <input type="submit" value="Zaloguj"/>
