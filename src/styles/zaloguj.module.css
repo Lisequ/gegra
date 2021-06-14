@@ -1,6 +1,18 @@
-.letsago {
-    text-align: center;
-    color: whitesmoke;
-    height: 50px;
-    background: rgb(10, 197, 119);
+.container
+{
+    display: grid;
+    place-items: center;
+}
+
+.form 
+{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5vmin;
+}
+.input
+{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
 }

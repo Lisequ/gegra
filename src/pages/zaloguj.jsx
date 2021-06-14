@@ -1,13 +1,19 @@
 import React from "react"
 import * as styles from "../styles/zaloguj.module.css"
 
+import Layout from "../components/layout"
+
 export default function Zaloguj()
 {
     return(
-        <form className={styles.letsago} method="POST" action="http://ekoturystyka.zsem.edu.pl/login.php">
-            <input type="text" placeholder="login"/>
-            <input type="password" placeholder="hasło"/>
-            <input type="submit" value="Zaloguj"/>
-        </form>
+        <Layout>
+            <div className={styles.container}>
+                <form className={styles.form} method="POST" action="http://ekoturystyka.zsem.edu.pl/login.php">
+                    <input className={styles.input} type="text" placeholder="login"/> <br />
+                    <input className={styles.input} type="password" placeholder="hasło"/> <br />
+                    <input className={styles.input} type="submit" value="Zaloguj"/>
+                </form>
+            </div>
+        </Layout>
     )
 }
