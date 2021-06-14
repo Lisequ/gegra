@@ -7,7 +7,7 @@ export default function Chmura()
 {
     return(
         <Layout>
-            <div className="container">
+            <div className={styles.container}>
 
             <form className={styles.form} action="phpvsc.php" method="POST">
                 <h1>Zaloguj się:</h1>

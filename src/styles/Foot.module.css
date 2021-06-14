@@ -3,4 +3,9 @@
     text-align: center;
     position: fixed;
     bottom: 0;
+    margin: 1vmin;
+}
+.hr
+{
+    margin: 0px;
 }

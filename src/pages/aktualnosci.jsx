@@ -9,7 +9,7 @@ import aktualnosci from "../aktualnosci.json"
 
 const SecondPage = () => (
   <Layout>
-    <Seo title="Page two" />
+    <Seo title="Aktualności"/>
     <h1>Aktualności:</h1>
     <ul>
       {aktualnosci.map(e => <Article title={e.title} subtitle={e.subtitle} link={e.link}/>)}

@@ -4,9 +4,6 @@ import * as styles from "../styles/Foot.module.css"
 export default function Foot()
 {
     return(
-        <>
-            <hr/>
-            <footer className={styles.stopa}>© 2021 | Ekoturystyka ZSEM</footer>
-        </>
+        <footer className={styles.stopa}> <hr className={styles.hr}/> <br/> © 2021 | Ekoturystyka ZSEM</footer>
     )
 }

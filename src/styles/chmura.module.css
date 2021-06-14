@@ -1,8 +1,18 @@
 .form
 {
-    margin: 3vmin;
+    border: 2px solid black;
+    padding: 3vmin;
+    border-radius: 15px;
 }
 .icon
 {
-    font-size: 10vmin;
+    font-size: 15vmin;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10vmin;
 }
