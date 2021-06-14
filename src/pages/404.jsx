@@ -5,7 +5,6 @@ import Seo from "../components/seo"
 
 export default function NotFoundPage() {
     return (
-        <meta charset="utf-8">
         <Layout>
             <Seo title="404: Not found" />
             <h1>404: Coś nie pykło</h1>
