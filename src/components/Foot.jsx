@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "../styles/Foot.module.css"
+import * as styles from "../styles/Foot.module.css"
 
 export default function Foot()
 {
