@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "../styles/zaloguj.module.css"
+import * as styles from "../styles/zaloguj.module.css"
 
 export default function Zaloguj()
 {
