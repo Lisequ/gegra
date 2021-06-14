@@ -9,6 +9,7 @@ export default function NotFoundPage() {
             <Seo title="404: Not found" />
             <h1>404: Coś nie pykło</h1>
             <p>Być albo nie być; oto jest pytanie.</p>
+            <p>Znajdujesz się w dziwnej przestrzeni, w której coś być powinno, a jednak nie ma.</p>
         </Layout>
     )
 }
