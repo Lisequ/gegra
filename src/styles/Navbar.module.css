@@ -5,7 +5,12 @@
     border-radius: 0px 0px 15px 15px;
     margin-bottom: 0vh;
 }
-
+.main {
+    background-image: var(--gradient-one);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
 .list
 {
     margin: 0px;
@@ -13,4 +18,73 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+.burger {
+    margin: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+.burger div{
+    width: 45px;
+    height: 5px;
+    background-color: var(--text-color);
+    margin: 5px;
+    transition: transform 0.3s ease;
+    border-radius: 10000000px;
+}
+
+@media screen and (max-width:768px) {
+    
+    .mainon > ul {
+        position: absolute;
+        height: 100%;
+        top: 0vh;
+        bottom: 5vh;
+        background-image: var(--gradient-one);
+        justify-content: space-around;
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style-type: none;
+        font-size: 20px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        z-index: 1;
+        transition: all 0.5s ease-in;
+        border-radius: 0px 0px 5vh 0px;
+        margin: 0px;
+    }
+    .list
+    {
+        display: none;
+    }
+
+    .burger {
+        display: block;z-index: 100;
+    }
+}
+.logo
+{
+    height: 3vh;
+    background-color: var(--text-color);
+    padding: 5px;
+    border-radius: 999999px;
+}
+
+.burgeron .line1 {
+    transform: rotate(45deg) translate(8px, 6px);
+    z-index: 100;
+}
+
+.burgeron .line2 {
+    opacity: 0;
+    z-index: 100;
+}
+
+.burgeron .line3 {
+    transform: rotate(-45deg) translate(8px, -6px);
+    z-index: 100;
 }
